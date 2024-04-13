@@ -2,11 +2,9 @@
 
 # dependencies
 /node_modules
+/form-lista
 /.pnp
 .pnp.js
-# feild comparation
-./form-lista
-./src/context
 
 # testing
 /coverage
