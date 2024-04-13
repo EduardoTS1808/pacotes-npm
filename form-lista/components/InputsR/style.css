@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+
+}
+.opction{
+    margin:5px;
+}
+.opction label{
+    font-size: 15px;
+    margin: 0 5px;
+}

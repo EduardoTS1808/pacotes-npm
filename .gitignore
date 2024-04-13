@@ -4,6 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
+# feild comparation
+./form-lista
+./src/context
 
 # testing
 /coverage

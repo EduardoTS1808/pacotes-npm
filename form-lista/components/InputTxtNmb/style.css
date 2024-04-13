@@ -1,0 +1,17 @@
+
+.campo-inputs .inputs{
+    display: flex;
+    margin: 10px 2px;
+    align-items: center;
+}
+.campo-inputs .inputs label{
+    font-size: 20px;
+}
+.campo-inputs .inputs input{
+    display: flex;
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    width: 250px;
+}
