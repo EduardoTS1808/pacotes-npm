@@ -1,19 +1,13 @@
 import './App.css';
-import { Outlet } from 'react-router-dom';
-import Menu from './components/Menu/Nav'
+import { BrowserRouter as Router
+ } from 'react-router-dom';
+import Home from './pages/Home';
+
 function App() {
   return (
-    <div className="App">
-    <div class=" w-auto d-flex content-center p-2 justify-between bg-white ">
-          <div>   <h1 className="font-bold  text-black"> logo</h1></div>
-      
-            <div class="p-1 d-flex mx-auto justify-center content-center">
-              <Menu/>
-        </div>
-
-        </div>
-       <Outlet />
-    </div>
+    <Router>
+        <Home/>
+    </Router>
   );
 }
 

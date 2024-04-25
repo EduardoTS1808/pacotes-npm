@@ -10,20 +10,19 @@ const Listagem =  (props) => {
     };
 
     return (
-        <div >{ candidatos.map((candidato)=>
+      
+       candidatos.map((candidato)=>
 
             <Card key={candidato.id}>
                 <Card.Header>{candidato.nome}</Card.Header>
               <Card.Body>
-               
                 <Button variant="primary" onClick={()=>handleClick(candidato.id)}>Excluir</Button>
-            
               <MyModal esteItem={candidato} />
               </Card.Body>
             </Card>
              )
-            }
-        </div>
+           
+        
     )
    
 }
